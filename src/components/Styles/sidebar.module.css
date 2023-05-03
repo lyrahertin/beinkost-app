@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.bar{
+    height: 100%;
+    width: 250px;
+    background-color: #313E4E;
+    
+}
+
+/* .ulSidebar{
+    height: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.liSidebar{
+    width: 100%;
+    height: 50px;
+    list-style-type: none;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    align-items: center;
+} */
+
+.icon{
+    flex: 30%;
+    display: grid;
+    place-items: center;
+}
+
+.title{
+    flex: 70%;
+}
